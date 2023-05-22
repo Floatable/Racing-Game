@@ -11,11 +11,13 @@ size = (SCREEN_WIDTH, SCREEN_HEIGHT)
 screen = py.display.set_mode(size)
 py.display.set_caption('Speedy gonzales')
 font = py.font.SysFont(None, 30)
+
 BLACK = (0,0,0)
 RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 GRAY = (210, 210, 210)
+
 # CUSTOM EVENTS
 SPAWN_CARS = USEREVENT + 1
 py.time.set_timer(SPAWN_CARS, 600)
@@ -65,9 +67,6 @@ while loop:
     # UPDATE         
     player_1.update()
     enemy_cars.update()
-    # wc.down_car_group
-    # player_1.player_border_collision()  
-    
     
     player_1_sprite.draw(screen)   
     enemy_cars.draw(screen)

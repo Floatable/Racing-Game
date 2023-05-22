@@ -1,6 +1,5 @@
 import pygame as py
 import random
-# from racingGAME import SCREEN_HEIGHT
 WHITE = "#FFFFFF"
 
 
@@ -62,6 +61,3 @@ class Car(py.sprite.Sprite):
         
 def down_cars(image):
     down_car = Car(image, random.randint(145,555), -50)
-    
-# def up_cars(image):
-#     up_car = Car(image, random.randint(300,395), 500)

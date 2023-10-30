@@ -1,2 +1,2 @@
 # Racing-Game
-its the racing game and my expiraments
+its the racing game and my experiments
